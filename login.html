@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/styleLogin.css">
+    <link rel="icon" href="./assets/MovieIcon.png" />
+    <title>CaC - Login</title> 
+</head>
+<body>
+    <a href="#" name='Inicio'></a>
+    
+    <header class="header">            
+        <div class="menu container">
+            <a href="#" class="logo">CaC Pelis</a>
+
+            <input type="checkbox" name="" id="menu">
+
+            <label for="menu">
+                <img src="./assets/Imagenes/menu.png" class="menu_icono" alt="menu">
+            </label>
+
+            <nav class="navbar">
+                <ul>
+                    <li>
+                        <a href="index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="#">Lista Completa</a>
+                    </li>
+                    <li>
+                        <a href="#">Login</a>
+                    </li>
+                    <li>
+                        <a href="#">Registrarse</a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="#" class="btn_1">Login</a>
+        </div>
+
+        <div class="header_content ">
+            <div class="header1">
+                <h1>Login</h1>
+                    <form action="" method="post">
+
+                            <legend>Ingrese su usuario (e-mail) y contraseña</legend>                
+                            <label for="CorreoElectronico">E-mail</label>
+                            <input type="email" placeholder="email" id="CorreoElectronico" name="CorreoElectronico" size="20" maxlength="20">
+                            <br>
+                            <label for="Contraseña">Password</label>
+                            <input type="password" placeholder="password" id="Contraseña" name="Contraseña" size="20" maxlength="20">
+                            <br>
+                            <!--el tipo submit es el boton para enviar el formulario-->
+                            <label for="Login">Ingresar</label>
+                            <input type="submit" class="btn_1" value="Login">
+
+                            <!--el tipo reset vuelve a poner los valores estandar del formulario, lo limpia-->
+                            <label for="reset">Borrar Datos</label>
+                            <input type="reset" class="btn_1" value="Reset">
+
+                    </form>
+            </div>
+        </div>
+
+    </header>
+
+
+
+
+
+    <footer class="footer container">
+        
+        <h3>CaC Pelis</h3>
+        <div class=".ul">
+            <ul>
+                <li>
+                    <a href="#Inicio">Inicio</a>
+                </li>
+                <li>
+                    <a href="a">Nosotros</a>
+                </li>
+                <li>
+                    <a href="a">Peliculas</a>
+                </li>
+                <li>
+                    <a href="">Contacto</a>
+                </li>              
+            </ul>
+        </div>
+    </footer>
+
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
